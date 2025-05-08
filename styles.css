@@ -178,6 +178,13 @@ body::before {
     box-shadow: 0 4px 15px rgba(245, 200, 67, 0.4);
 }
 
+.logo-center {
+    display: block;
+    margin: 40px auto 20px auto;
+    height: 80px;
+    /* подстрой под реальный размер */
+}
+
 .subtitle {
     font-size: 24px;
     letter-spacing: 2px;
@@ -251,25 +258,25 @@ body::before {
     .container {
         padding: 0 20px;
     }
-    
+
     .nav {
         flex-direction: column;
         gap: 20px;
         padding: 0 20px;
     }
-    
+
     .nav a {
         font-size: 18px;
     }
-    
+
     .title {
         font-size: 48px;
     }
-    
+
     .main-box {
         padding: 30px;
     }
-    
+
     .top-buttons {
         flex-direction: column;
     }
@@ -329,11 +336,11 @@ body::before {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .sky-image {
         max-width: 100%;
     }
-    
+
     .sky-text {
         padding: 10px;
     }
@@ -392,11 +399,11 @@ body::before {
     .places-image {
         height: 300px;
     }
-    
+
     .places-text h2 {
         font-size: 28px;
     }
-    
+
     .places-text p {
         font-size: 16px;
     }
@@ -486,15 +493,15 @@ body::before {
         grid-template-columns: 1fr;
         gap: 20px;
     }
-    
+
     .place-image {
         height: 200px;
     }
-    
+
     .place-content h3 {
         font-size: 20px;
     }
-    
+
     .place-content p {
         font-size: 14px;
     }
@@ -583,17 +590,16 @@ body::before {
         font-size: 24px;
         padding: 0 20px;
     }
-    
+
     .tour-container {
         border-radius: 10px;
     }
-    
+
     .opera-description {
         padding: 15px;
     }
-    
+
     .opera-description p {
         font-size: 14px;
     }
 }
-  
